@@ -24,6 +24,8 @@
 		A37123F52CCC174200F3E766 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37123F42CCC174200F3E766 /* TicketView.swift */; };
 		A38420472CCD777100AC7804 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38420462CCD777100AC7804 /* TabData.swift */; };
 		A38420492CCD794F00AC7804 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38420482CCD794F00AC7804 /* CustomTabBar.swift */; };
+		A384204B2CCD8BAC00AC7804 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384204A2CCD8BAC00AC7804 /* HomeView.swift */; };
+		A384204D2CCD8CB900AC7804 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384204C2CCD8CB900AC7804 /* CustomSearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		A37123F42CCC174200F3E766 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TicketView.swift; path = MovieBooking/TicketView.swift; sourceTree = SOURCE_ROOT; };
 		A38420462CCD777100AC7804 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		A38420482CCD794F00AC7804 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		A384204A2CCD8BAC00AC7804 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = MovieBooking/HomeView.swift; sourceTree = SOURCE_ROOT; };
+		A384204C2CCD8CB900AC7804 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -107,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				A37123F42CCC174200F3E766 /* TicketView.swift */,
+				A384204A2CCD8BAC00AC7804 /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 				33D8599628AC1E4D00C842CF /* CircleBackground.swift */,
 				3314727C28B03430000AFD83 /* StatusUI.swift */,
 				A38420482CCD794F00AC7804 /* CustomTabBar.swift */,
+				A384204C2CCD8CB900AC7804 /* CustomSearchBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -225,6 +231,8 @@
 				3314728128B038C1000AFD83 /* RoundButton.swift in Sources */,
 				966401B729FB1CD700589E58 /* LargeButton.swift in Sources */,
 				A38420492CCD794F00AC7804 /* CustomTabBar.swift in Sources */,
+				A384204B2CCD8BAC00AC7804 /* HomeView.swift in Sources */,
+				A384204D2CCD8CB900AC7804 /* CustomSearchBar.swift in Sources */,
 				A38420472CCD777100AC7804 /* TabData.swift in Sources */,
 				33D8599B28AC26E000C842CF /* CircleButton.swift in Sources */,
 				33D8599028AC10A500C842CF /* PosterData.swift in Sources */,

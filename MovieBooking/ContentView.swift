@@ -16,7 +16,7 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 0) {
             TabView(selection: $currentTab) {
-                Text("Home")
+                HomeView()
                     .tag(Tab.home)
                 Text("Location")
                     .tag(Tab.location)
@@ -30,6 +30,7 @@ struct ContentView: View {
             
             CustomTabBar(currentTab: $currentTab)
         }
+        .ignoresSafeArea(.keyboard)
     }
 }
 
