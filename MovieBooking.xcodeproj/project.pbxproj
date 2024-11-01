@@ -26,6 +26,8 @@
 		A38420492CCD794F00AC7804 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38420482CCD794F00AC7804 /* CustomTabBar.swift */; };
 		A384204B2CCD8BAC00AC7804 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384204A2CCD8BAC00AC7804 /* HomeView.swift */; };
 		A384204D2CCD8CB900AC7804 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384204C2CCD8CB900AC7804 /* CustomSearchBar.swift */; };
+		A38420572CCD8F1800AC7804 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38420562CCD8F1800AC7804 /* ScrollSection.swift */; };
+		A38420592CD012BC00AC7804 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38420582CD012BC00AC7804 /* BookingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		A38420482CCD794F00AC7804 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		A384204A2CCD8BAC00AC7804 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = MovieBooking/HomeView.swift; sourceTree = SOURCE_ROOT; };
 		A384204C2CCD8CB900AC7804 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		A38420562CCD8F1800AC7804 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		A38420582CD012BC00AC7804 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookingView.swift; path = MovieBooking/BookingView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -112,6 +116,7 @@
 			children = (
 				A37123F42CCC174200F3E766 /* TicketView.swift */,
 				A384204A2CCD8BAC00AC7804 /* HomeView.swift */,
+				A38420582CD012BC00AC7804 /* BookingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				3314727C28B03430000AFD83 /* StatusUI.swift */,
 				A38420482CCD794F00AC7804 /* CustomTabBar.swift */,
 				A384204C2CCD8CB900AC7804 /* CustomSearchBar.swift */,
+				A38420562CCD8F1800AC7804 /* ScrollSection.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -224,12 +230,14 @@
 			files = (
 				33D8599228AC179800C842CF /* TimeButton.swift in Sources */,
 				A37123F52CCC174200F3E766 /* TicketView.swift in Sources */,
+				A38420572CCD8F1800AC7804 /* ScrollSection.swift in Sources */,
 				33D8597E28ABDDCB00C842CF /* ContentView.swift in Sources */,
 				33D8598E28AC0EA600C842CF /* TicketData.swift in Sources */,
 				3314728328B038DF000AFD83 /* utils.swift in Sources */,
 				3314727D28B03430000AFD83 /* StatusUI.swift in Sources */,
 				3314728128B038C1000AFD83 /* RoundButton.swift in Sources */,
 				966401B729FB1CD700589E58 /* LargeButton.swift in Sources */,
+				A38420592CD012BC00AC7804 /* BookingView.swift in Sources */,
 				A38420492CCD794F00AC7804 /* CustomTabBar.swift in Sources */,
 				A384204B2CCD8BAC00AC7804 /* HomeView.swift in Sources */,
 				A384204D2CCD8CB900AC7804 /* CustomSearchBar.swift in Sources */,
@@ -378,6 +386,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,9 +394,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.evgeniifishbein.movieapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -408,6 +421,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,9 +429,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.evgeniifishbein.movieapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
